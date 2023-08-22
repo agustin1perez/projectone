@@ -1,0 +1,139 @@
+@font-face {
+  font-family: Frozenflare;
+  src: url(Frozenflare.otf)
+}
+
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.topheader {
+  font-family: Frozenflare;
+  center
+}
+
+
+body {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #00D6B9, #3191c4);
+}
+
+form {
+
+  display: flex;
+  flex-direction: column;
+  background-color: #0cc4c4;
+  text-align: center;
+  padding: 20px 25px;
+  box-shadow: 0 5px 10px #023020;
+}
+
+form .login {
+  color: #FFFFFF;
+  text-shadow: rgb(0, 0, 0) 1px 0 10px;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+form label {
+  margin-bottom: 20px;
+}
+
+form label .fa-regular {
+  text-shadow: rgb(0, 0, 0) 1px 0 10px;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-right: 15px;
+}
+
+form label .fa-solid {
+  text-shadow: rgb(0, 0, 0) 1px 0 10px;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-right: 15px;
+}
+
+form label input {
+
+  outline: none;
+  border: none;
+  color: #ffffff;
+  border-bottom: solid 1px #121313;
+  padding: 10 15px;
+  font-size: 18px;
+  background: none;
+  margin-bottom: 10px;
+}
+
+form label input::placeholder {
+  font-family: Frozenflare;
+  opacity: 0.3;
+  color: rgba(37, 37, 37, 0, 5);
+}
+
+form .link {
+  text-shadow: rgb(0, 0, 0) 1px 0 10px;
+  font-family: Frozenflare;
+  color: #ffffff;
+  margin-bottom: 15px;
+  font-weight: 450;
+
+}
+
+form button {
+  font-family: Frozenflare;
+  opacity: 0, 1;
+  color: #fff;
+  border: none;
+  background: linear-gradient(to right, #0f60c7, #07418b);
+  text-shadow: rgb(0, 0, 0) 1px 0 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 15;
+}
+
+form .dos {
+  padding: 160px 15% 120px;
+
+}
+
+form .oo {
+  text-shadow: rgb(0, 0, 0) 1px 0 10px;
+  font-family: Frozenflare;
+  margin-bottom: 5px;
+  margin-top: 5px
+}
+
+form .register {
+  text-shadow: rgb(0, 0, 0) 1px 0 10px;
+  font-family: Frozenflare;
+  color: #FFFFFF
+}
+
+/*    
+}
+
+form register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form register {
+    flex-direction:  column;
+    /*justify-content: center;/
+        display: flex;
+       align-items: center;
+       
+       gap: ;
+    
+  /*   /*/
